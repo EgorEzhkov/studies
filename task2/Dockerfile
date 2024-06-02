@@ -4,4 +4,4 @@ WORKDIR /home/ilovedocker/app
 
 COPY hello.sh ./
 
-RUN sh hello
+CMD [ "sh", './hello.sh' ]
